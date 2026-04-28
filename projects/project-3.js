@@ -36,10 +36,11 @@ function preload() {
 }
 
 function setup() {
-	createCanvas(windowWidth, windowHeight);
+let canvas = createCanvas(715, 665);
+  canvas.parent('sketch-container');
 	rectMode(CENTER)
-	ww = windowWidth
-	hh = windowHeight
+	ww = 715
+	hh = 665
 	textAlign(CENTER)
 	textSize(50)
 
