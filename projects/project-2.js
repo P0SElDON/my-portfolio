@@ -14,13 +14,13 @@ let rains = [];
 let rainAmount = amount;
 
 function preload() {
-  mySound = loadSound("Thunder Rain Sound Effect 1294.wav");
+
 }
 
 function setup() {
    let canvas = createCanvas(400, 400);
   canvas.parent('sketch-container');
-  mySound.loop();
+
 }
 
 function draw() {

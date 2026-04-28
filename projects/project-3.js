@@ -26,7 +26,6 @@ function preload() {
 	imgr = loadImage("right 1.png")
 	wood = loadImage("New Piskel (2).png")
 	wall = loadImage("New Piskel 4.png")
-	walk = loadSound("Sand Walk Music.mp3")
 	trapopen = loadImage("New Piskel (3).png")
 	trapclosed = loadImage("New Piskel (4).png")
 	trap1 = new MouseTrap(200, 200)
@@ -432,10 +431,3 @@ class MouseTrap {
 
 
 //sound code taken from sound page on reference
-
-function keyPressed() {
-   walk.loop();
- }
- function keyReleased() {
-   walk.stop();
- }
