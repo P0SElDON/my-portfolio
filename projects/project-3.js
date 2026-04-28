@@ -19,7 +19,6 @@ var trap1, trap2, trap3
 // loading all images sounds and traps
 
 function preload() {
-	soundFormats("mp3")
 	imgl = loadImage("left 1.png")
 	imgu = loadImage("up 1.png")
 	imgd = loadImage("down 1.png")
