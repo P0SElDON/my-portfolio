@@ -1,12 +1,12 @@
 
 /* ── Tokens ─────────────────────────────────────────── */
 :root {
-  --bg:        #0f0f0f;
-  --surface:   #1a1a1a;
-  --border:    #2e2e2e;
+  --bg:        #323e8e;
+  --surface:   #61b1a9df;
+  --border:    #ae276d;
   --accent:    #c8f04a;
-  --text:      #f0ede6;
-  --muted:     #7a7770;
+  --text:      #8c9a66;
+  --muted:     #cfffd1;
   --font-head: 'DM Serif Display', Georgia, serif;
   --font-body: 'DM Mono', 'Courier New', monospace;
   --radius:    6px;
